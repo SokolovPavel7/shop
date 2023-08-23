@@ -1,3 +1,11 @@
+#Разработка сайта по продаже мебели на React.
+
+1. Компонент App переписан в класс.
+2. При разработке используется расширение VS Code - ES7+ React/Redux/React-Native snippets:
+
+- rfc - команда для создания структуры компонента в файле с одноименным названием кмпонента.
+- rce - команда для создания классового компонента
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
