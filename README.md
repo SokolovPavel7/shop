@@ -6,6 +6,9 @@
 - rfc - команда для создания структуры компонента в файле с одноименным названием кмпонента.
 - rce - команда для создания классового компонента
 
+3. Используем библиотеку React icons (npm i react-icons)
+4. Для корзины используем генератор теней с сайта https://active-vision.ru/icon/box-shadow/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
