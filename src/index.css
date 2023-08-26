@@ -44,14 +44,37 @@ header .shop-cart {
   top: 30px;
   right: 0;
   width: 450px;
-  min-height: 100px;
+  padding: 20px 20px 0px 20px;
+
   background: #fafafa;
   -webkit-box-shadow: 0px 0px 8px 3px rgba(25, 105, 167, 0.17);
   -moz-box-shadow: 0px 0px 8px 3px rgba(25, 105, 167, 0.17);
   box-shadow: 0px 0px 8px 3px rgba(25, 105, 167, 0.17);
   z-index: 2;
 }
+header .shop-cart .empty h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
 
+header .shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+header .shop-cart .item img {
+  width: 70px;
+  float: left;
+  margin-right: 20px;
+}
+header .shop-cart .item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+header .shop-cart .item p {
+  color: #797979;
+  font-weight: 600;
+}
 header .shop-cart-button {
   float: right; /*распологаем кнопку по правую сторону*/
   cursor: pointer;
