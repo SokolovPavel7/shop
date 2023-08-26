@@ -75,10 +75,24 @@ header .shop-cart .item p {
   color: #797979;
   font-weight: 600;
 }
+header .shop-cart .item .delete-icon {
+  color: #ca5252;
+  float: right;
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+  transition: color, transform 500ms ease;
+  width: 20px;
+  height: 20px;
+}
+header .shop-cart .item .delete-icon:hover {
+  color: #e41616;
+  transform: scale(1.5);
+}
 header .shop-cart-button {
   float: right; /*распологаем кнопку по правую сторону*/
   cursor: pointer;
-  transition: color, transform, 500ms ease;
+  transition: color, transform 500ms ease;
   width: 20px;
   height: 20px;
 }
@@ -87,6 +101,14 @@ header .shop-cart-button:hover,
 header .shop-cart-button.active {
   color: #dc3d3d;
   transform: scale(1.5);
+}
+
+header .shop-cart .sum {
+  float: left;
+  width: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 header .presentation {
